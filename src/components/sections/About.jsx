@@ -1,0 +1,58 @@
+import React from "react";
+import { Typewriter } from "react-simple-typewriter";
+const env = import.meta.env;
+
+const About = () => {
+  return (
+    <div>
+    <div
+      id="about"
+      className="pt-36 px-4 h-screen pb-[64px] w-full bg-gradient-to-b from-gray-950 to-purple-950 flex flex-col-reverse lg:flex-row items-center justify-center gap-10"
+    >
+      {/* Text Content */}
+      <div className="flex flex-col gap-6 w-full md:w-2/3 lg:w-1/2 text-center lg:text-left">
+        <span className="text-4xl sm:text-5xl font-bold text-white">
+          Hey, I am Vansh Morwani
+        </span>
+
+        <span className="text-2xl sm:text-3xl font-semibold text-white">
+          I am a {' '}
+          <span className="text-2xl sm:text-3xl font-semibold text-purple-500">
+        <Typewriter
+          words={['Web Developer','Backend Developer', 'Problem Solver', 'Frontend Developer']}
+          loop={0}
+          cursor
+          cursorStyle="_"
+          typeSpeed={70}
+          deleteSpeed={50}
+          delaySpeed={1500}
+        />
+      </span>
+        </span>
+        
+        <span className="text-gray-400 text-lg sm:text-2xl">
+          A web developer who can build industry level web applications. I
+          juggle backend, frontend, databases and problem solving. Currently, I’m leveling up my skills in Data Structures & Algorithms and exploring how to blend AI/ML with full-stack development to create smarter apps.
+        </span>
+        <a target="_blank" href={env.VITE_RESUME_LINK}><button className="hover:cursor-pointer relative inline-flex max-w-fit mx-auto lg:mx-0 items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
+          <span className="text-xl relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent">
+            Check Resume
+          </span>
+        </button></a>
+        
+      </div>
+
+      {/* Image */}
+      <div>
+        <img
+          src="/vansh-dp2.jpg"
+          alt="Vansh Morwani"
+          className="w-60 sm:w-72 md:w-80 lg:w-96 rounded-full border-2 border-purple-500"
+        />
+      </div>
+    </div>
+    </div>
+  );
+};
+
+export default About;
