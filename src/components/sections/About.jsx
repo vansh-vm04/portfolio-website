@@ -7,12 +7,12 @@ const About = () => {
     <div>
     <div
       id="about"
-      className="pt-36 px-4 h-screen pb-[64px] w-full bg-gradient-to-b from-gray-950 to-purple-950 flex flex-col-reverse lg:flex-row items-center justify-center gap-10"
+      className="pt-36 px-4 min-h-screen pb-[64px] w-full bg-gradient-to-b from-gray-950 to-purple-950 flex flex-col-reverse lg:flex-row items-center justify-center gap-10"
     >
       {/* Text Content */}
       <div className="flex flex-col gap-6 w-full md:w-2/3 lg:w-1/2 text-center lg:text-left">
         <span className="text-4xl sm:text-5xl font-bold text-white">
-          Hey, I am Vansh Morwani
+          Hey, I am <span className="text-4xl sm:text-5xl font-bold text-nowrap text-white">Vansh Morwani</span>
         </span>
 
         <span className="text-2xl sm:text-3xl font-semibold text-white">
