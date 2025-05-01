@@ -57,7 +57,7 @@ const Contact = () => {
             type="text"
             placeholder="Your Name"
             {...register("name", { required: true })}
-            className="w-full p-3 rounded-xl bg-gray-900 border border-white text-gray-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full p-3 rounded-xl bg-gray-900 border border-white text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           {errors.name && (
             <span className="text-red-500 text-sm">Name is required</span>
@@ -69,7 +69,7 @@ const Contact = () => {
             type="email"
             placeholder="Your Email"
             {...register("email", { required: true })}
-            className="w-full p-3 rounded-xl bg-gray-900 border border-white text-gray-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full p-3 rounded-xl bg-gray-900 border border-white text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           {errors.email && (
             <span className="text-red-500 text-sm">Email is required</span>
@@ -81,7 +81,7 @@ const Contact = () => {
             type="text"
             placeholder="Subject"
             {...register("subject", { required: true })}
-            className="w-full p-3 rounded-xl bg-gray-900 border border-white  text-gray-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full p-3 rounded-xl bg-gray-900 border border-white  text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           {errors.subject && (
             <span className="text-red-500 text-sm">Subject is required</span>
@@ -93,7 +93,7 @@ const Contact = () => {
             placeholder="Your Message"
             {...register("message", { required: true })}
             rows={4}
-            className="w-full p-3 rounded-xl bg-gray-900 border border-white text-gray-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 min-h-40"
+            className="w-full p-3 rounded-xl bg-gray-900 border border-white text-white focus:outline-none focus:ring-2 focus:ring-blue-500 min-h-40"
           />
           {errors.message && (
             <span className="text-red-500 text-sm">Message is required</span>
