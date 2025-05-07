@@ -2,9 +2,9 @@ import React from 'react'
 
 const ProjectCard = ({ image, liveLink, gitLink, name, description, tools }) => {
   return (
-    <div className="hover:border-purple-500 hover:shadow-purple-400 hover:shadow-sm rounded-xl shadow-lg w-[332px] h-[544px] gap-4 bg-gray-950 flex flex-col shadow-blue-950 p-4 overflow-hidden">
+    <div className="group/img hover:border-purple-500 transition-transform hover:duration-200 hover:ease-in-out hover:scale-103 duration-200 ease-in hover:shadow-purple-400 hover:shadow-sm rounded-2xl shadow-lg w-[332px] h-[544px] gap-4 bg-gray-950 flex flex-col shadow-blue-950 p-4 overflow-hidden">
       {/* Image */}
-      <img className="h-[196px] rounded-lg object-contain" src={image} alt={name} />
+      <img className="h-[196px] rounded-lg transition-transform object-cover group-hover/img:scale-105 hover:duration-200 hover:ease-in" src={image} alt={name} />
 
       {/* Project Name */}
       <span className="text-gray-400 text-xl font-bold">{name}</span>

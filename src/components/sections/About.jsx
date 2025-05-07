@@ -34,7 +34,7 @@ const About = () => {
           A web developer who can build industry level web applications. I
           juggle backend, frontend, databases and problem solving. Currently, I am enhancing my proficiency in Data Structures and Algorithms, alongside strengthening my backend development skills.
         </span>
-        <a target="_blank" href={env.VITE_RESUME_LINK}><button className="hover:cursor-pointer relative inline-flex max-w-fit mx-auto lg:mx-0 items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
+        <a target="_blank" href={env.VITE_RESUME_LINK}><button className="transition duration-200 ease-in hover:-translate-y-1 hover:scale-110 hover:ease-in hover:cursor-pointer hover:duration-200 relative inline-flex max-w-fit mx-auto lg:mx-0 items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-pink-400 to-purple-600 group-hover:from-pink-400 group-hover:to-purple-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
           <span className="text-xl relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 rounded-md text-white group-hover:bg-transparent group-hover:dark:bg-transparent">
             Check Resume
           </span>
@@ -47,7 +47,7 @@ const About = () => {
         <img
           src="/vansh-dp2.jpg"
           alt="Vansh Morwani"
-          className="w-60 sm:w-72 md:w-80 lg:w-96 rounded-full border-2 border-purple-500"
+          className="w-60 hover:duration-200 hover:ease-in duration-200 ease-in sm:w-72 md:w-80 lg:w-96 rounded-full border-2 border-purple-500"
         />
       </div>
     </div>

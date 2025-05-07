@@ -104,7 +104,7 @@ const Contact = () => {
           type="submit"
           value="Send Message"
           disabled={isSubmiting}
-          className="max-w-xl w-full font-medium bg-gradient-to-r from-pink-400 to-purple-600 text-white p-3 hover:bg-gradient-to-l rounded-lg transition-colors duration-300 cursor-pointer"
+          className="hover:scale-102 transition-transform hover:ease-in hover:-translate-y-0.5 ease-in hover:duration-200 max-w-xl w-full font-medium bg-gradient-to-r from-pink-400 to-purple-600 text-white p-3 hover:bg-gradient-to-l rounded-lg duration-200 cursor-pointer"
         />
       </form>
     </div>
