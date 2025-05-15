@@ -17,9 +17,9 @@ const Skills = () => {
   ];
 
   const Backend = [
-    { name: "MongoDB", icon: "/icons/mongodb.png" },
+    { name: "MongoDB", icon: "https://skillicons.dev/icons?i=mongo" },
     { name: "NodeJS", icon: "/icons/nodejs.png" },
-    { name: "ExpressJS", icon: "/icons/express.png" },
+    { name: "ExpressJS", icon: "https://skillicons.dev/icons?i=expressjs" },
     { name: "Rest APIs", icon: "/icons/restapi.png" },
   ];
 
@@ -34,7 +34,7 @@ const Skills = () => {
     },
     {
       name: "MongoDB Compass",
-      icon: "https://webimages.mongodb.com/_com_assets/cms/mongodb_logo1-76twgcu2dm.png",
+      icon: "https://skillicons.dev/icons?i=mongodb",
     },
     {
       name: "Git",
@@ -43,6 +43,10 @@ const Skills = () => {
     {
       name: "GitHub",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+    },
+    {
+      name: "Docker",
+      icon: "https://skillicons.dev/icons?i=docker",
     },
     {
       name: "Clerk",
