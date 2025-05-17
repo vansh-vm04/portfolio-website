@@ -6,6 +6,9 @@ import Projects from "./components/sections/Projects";
 import Education from "./components/sections/Education";
 import Contact from "./components/sections/Contact";
 import Footer from "./components/Footer";
+import { Analytics } from '@vercel/analytics/react';
+ 
+
 function App() {
   return (
     <>
@@ -20,6 +23,7 @@ function App() {
       <div className="h-1 bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500  shadow-lg" />
       <Contact></Contact>
       <Footer></Footer>
+      <Analytics />
     </>
   );
 }
