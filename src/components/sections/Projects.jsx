@@ -17,7 +17,7 @@ const Projects = () => {
       <div className="items-center justify-center gap-6 w-full flex flex-wrap">
         <ProjectCard
           name="Vidcell"
-          image="/project/vidcell.png"
+          image="/project/vidcell.mp4"
           liveLink="https://vidcell.vercel.app"
           gitLink="https://github.com/vansh-vm04/vidcell"
           description="VidCell is a real-time video conferencing web app built with Next.js and the Stream Video SDK. It allows users to create and join video meetings with ease, featuring user authentication, smooth UI, and reliable peer-to-peer video communication — ideal for remote collaboration."
@@ -26,7 +26,7 @@ const Projects = () => {
 
         <ProjectCard
           name="Resume Desk"
-          image="/project/resumedesk.png"
+          image="/project/resume-desk.mp4"
           liveLink="https://resume-desk.vercel.app"
           gitLink="https://github.com/vansh-vm04/resume-desk"
           description="Resume Desk is a web application that helps users create professional resumes quickly and efficiently. It features user authentication, structured data storage with MongoDB, and dynamic resume generation using EJS templates — all accessible through a personalized dashboard."
