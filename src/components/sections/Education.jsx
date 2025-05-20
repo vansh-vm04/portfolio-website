@@ -23,7 +23,7 @@ const Education = () => {
             index:3,
             degree: "CBSE (Class 10)",
             institution: "Gyan Vihar School",
-            duration: "2020-2021",
+            duration: "2019-2020",
             location: "Jaipur, Rajasthan",
             image:"/gv.jpeg"
         },
