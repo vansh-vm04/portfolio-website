@@ -52,6 +52,7 @@ const About = () => {
             I am enhancing my proficiency in Data Structures and Algorithms,
             alongside strengthening my backend development skills.
           </span>
+          {/* Live resume link */}
           <a target="_blank" href={env.VITE_RESUME_LINK}>
             <button className="transition duration-200 ease-in hover:-translate-y-1 hover:scale-110 hover:ease-in hover:cursor-pointer hover:duration-200 relative inline-flex max-w-fit mx-auto lg:mx-0 items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-pink-400 to-purple-600 group-hover:from-pink-400 group-hover:to-purple-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
               <span className="text-xl relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 rounded-md text-white group-hover:bg-transparent group-hover:dark:bg-transparent">
