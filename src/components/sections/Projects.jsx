@@ -33,6 +33,15 @@ const Projects = () => {
           tools={["ReactJS", "JWT", "Tailwind", "NodeJS", "MongoDB"]}
         ></ProjectCard>
 
+        <ProjectCard
+          name="Netflix Clone (Frontend)"
+          image="/project/netflix.mp4"
+          liveLink="https://github.com/vansh-vm04/Mini-Projects/tree/main/Netflix-Clone"
+          gitLink="https://github.com/vansh-vm04/Mini-Projects/tree/main/Netflix-Clone"
+          description="Netflix frontend clone. Built using HTML and CSS."
+          tools={["HTML", "CSS"]}
+        ></ProjectCard>
+
       </div>
     </div>
   );
