@@ -5,12 +5,12 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="w-full pt-20 pb-20 px-4 bg-gray-900 flex flex-col items-center"
+      className="w-full pt-20 pb-20 px-4 bg-gradient-to-r from-purple-950 to-purple-400 flex flex-col items-center"
     >
       <span className="text-3xl sm:text-4xl poppins-bold text-white mb-2">
         Projects
       </span>
-      <span className="text-gray-400 text-base sm:text-xl text-center max-w-xl mb-10">
+      <span className="text-gray-300 text-base sm:text-xl text-center max-w-xl mb-10">
         Journey from web apps to deployement. Here are some of my projects.
       </span>
 
@@ -40,6 +40,15 @@ const Projects = () => {
           gitLink="https://github.com/vansh-vm04/Mini-Projects/tree/main/Netflix-Clone"
           description="Netflix frontend clone. Built using HTML and CSS."
           tools={["HTML", "CSS"]}
+        ></ProjectCard>
+
+        <ProjectCard
+          name="Image Search App"
+          image="/project/getimg.mp4"
+          liveLink="https://get-image-xyz.vercel.app/"
+          gitLink="https://github.com/vansh-vm04/Get-Image-App"
+          description="Image search app. Built using React, Tailwind and Unsplash image api."
+          tools={["React", "Tailwind","REST API"]}
         ></ProjectCard>
 
       </div>

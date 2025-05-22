@@ -71,7 +71,7 @@ const Skills = () => {
   ];
 
   return (
-    <div id="skills"  className="w-full pt-20 pb-20 px-4 bg-gray-900 flex flex-col items-center">
+    <div id="skills"  className="w-full pt-20 pb-20 px-4 bg-gradient-to-t to-violet-950 from-gray-950 flex flex-col items-center">
       <span
         
         className="text-3xl sm:text-4xl poppins-bold text-white mb-2"

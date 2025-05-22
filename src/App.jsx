@@ -14,13 +14,13 @@ function App() {
     <>
       <Navbar></Navbar>
       <About></About>
-      <div className="h-1 bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500  shadow-lg" />
+      <div className="h-0.5 bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500  shadow-lg" />
       <Skills></Skills>
-      <div className="h-1 bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500  shadow-lg" />
+      <div className="h-0.5 bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500  shadow-lg" />
       <Projects></Projects>
-      <div className="h-1 bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500  shadow-lg" />
+      <div className="h-0.5 bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500  shadow-lg" />
       <Education></Education>
-      <div className="h-1 bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500  shadow-lg" />
+      <div className="h-0.5 bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500  shadow-lg" />
       <Contact></Contact>
       <Footer></Footer>
       <Analytics />

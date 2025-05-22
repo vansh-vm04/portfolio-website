@@ -15,7 +15,7 @@ const About = () => {
           ease: "easeInOut",
         }}
         viewport={{ once: true }}
-        className="pt-36 px-4 min-h-screen pb-[64px] w-full bg-gradient-to-b from-gray-950 to-purple-950 flex flex-col-reverse lg:flex-row items-center justify-center gap-10"
+        className="pt-36 px-4 min-h-screen pb-[64px] w-full bg-gradient-to-br from-gray-950 to-purple-900 flex flex-col-reverse lg:flex-row items-center justify-center gap-10"
       >
         {/* Text Content */}
         <div className="flex flex-col gap-6 w-full md:w-2/3 lg:w-1/2 text-center lg:text-left">
