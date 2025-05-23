@@ -15,7 +15,7 @@ const About = () => {
           ease: "easeInOut",
         }}
         viewport={{ once: true }}
-        className="pt-36 px-4 min-h-screen pb-[64px] w-full bg-gradient-to-br from-gray-950 to-purple-900 flex flex-col-reverse lg:flex-row items-center justify-center gap-10"
+        className="pt-36 px-4 min-h-screen pb-[64px] w-full bg-gradient-to-br from-blue-900 to-purple-900 flex flex-col-reverse lg:flex-row items-center justify-center gap-10"
       >
         {/* Text Content */}
         <div className="flex flex-col gap-6 w-full md:w-2/3 lg:w-1/2 text-center lg:text-left">
@@ -28,7 +28,7 @@ const About = () => {
 
           <span className="text-2xl sm:text-3xl font-semibold text-white">
             I am a{" "}
-            <span className="text-2xl sm:text-3xl font-semibold text-purple-500">
+            <span className="text-2xl sm:text-3xl font-semibold text-purple-400">
               <Typewriter
                 words={[
                   "Web Developer",
@@ -46,7 +46,7 @@ const About = () => {
             </span>
           </span>
 
-          <span className="text-gray-400 text-lg sm:text-2xl">
+          <span className="text-gray-300 text-lg sm:text-2xl">
             A web developer who can build industry level web applications. I
             juggle backend, frontend, databases and problem solving. Currently,
             I am enhancing my proficiency in Data Structures and Algorithms,

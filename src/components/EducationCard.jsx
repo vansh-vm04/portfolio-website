@@ -2,7 +2,7 @@ import React from "react";
 
 const EducationCard = ({ edu }) => {
   return (
-    <div key={edu.index} className="bg-gray-900 p-6 md:px-36 hover:-translate-y-0.5 hover:duration-150 hover:scale-103 gap-4 flex flex-col rounded-xl hover:shadow-lg shadow-md shadow-purple-900">
+    <div key={edu.index} className="bg-gray-900 p-6 md:px-36 hover:-translate-y-0.5 hover:duration-500 hover:transform-3d hover:ease-in hover:scale-105 gap-4 flex flex-col rounded-xl hover:shadow-lg shadow-md shadow-purple-900">
         <div className="flex gap-2 items-center">
         <img className="w-10 h-10 rounded-full" src={edu.image} alt="" />
         <h3 className="text-xl font-semibold text-purple-400">{edu.institution}</h3>

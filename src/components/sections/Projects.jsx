@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="w-full pt-20 pb-20 px-4 bg-gradient-to-r from-purple-950 to-purple-400 flex flex-col items-center"
+      className="w-full pt-20 pb-20 px-4 bg-gradient-to-b from-blue-900 to-purple-700 flex flex-col items-center"
     >
       <span className="text-3xl sm:text-4xl poppins-bold text-white mb-2">
         Projects

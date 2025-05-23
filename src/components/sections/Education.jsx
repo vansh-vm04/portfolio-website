@@ -32,16 +32,16 @@ const Education = () => {
   return (
     <div
       id="education"
-      className="w-full pt-20 pb-20 px-4 bg-gray-900 flex flex-col items-center"
+      className="w-full pt-20 pb-20 px-4 bg-gradient-to-b from-purple-700 to-blue-900 flex flex-col items-center"
     >
       <span className="text-3xl sm:text-4xl poppins-bold text-white mb-2">
         Education
       </span>
-      <span className="text-gray-400 text-base sm:text-xl text-center max-w-xl mb-10">
+      <span className="text-gray-200 text-base sm:text-xl text-center max-w-xl mb-10">
         My education journey.
       </span>
 
-      <div className="flex flex-col gap-8">
+      <div className="flex flex-col gap-4">
       {educationData.map(edu=>(
         <EducationCard key={edu.index} edu={edu}/>
       ))}
