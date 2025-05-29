@@ -4,6 +4,7 @@ import {motion} from "framer-motion";
 const env = import.meta.env;
 
 const About = () => {
+  const name = "Vansh Morwani";
   return (
     <div>
       <motion.div
@@ -22,7 +23,11 @@ const About = () => {
           <span className="text-4xl sm:text-5xl font-bold text-white">
             Hey, I am{" "}
             <span className="text-4xl sm:text-5xl font-bold text-nowrap text-white">
-              Vansh Morwani
+              {name.split('').map(ch => 
+                {
+                  return <span className={ch!=' ' && "animate_rubberband"}>{ch}</span>
+                }
+              )}
             </span>
           </span>
 
