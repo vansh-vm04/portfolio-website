@@ -7,6 +7,7 @@ import Education from "./components/sections/Education";
 import Contact from "./components/sections/Contact";
 import Footer from "./components/Footer";
 import { Analytics } from '@vercel/analytics/react';
+import SideComponent from "./components/LinksBar";
  
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Education></Education>
       <Contact></Contact>
       <Footer></Footer>
+      <SideComponent/>
       <Analytics />
     </>
   );

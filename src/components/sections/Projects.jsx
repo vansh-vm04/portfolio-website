@@ -17,7 +17,7 @@ const Projects = () => {
       <div className="items-center justify-center gap-6 w-full flex flex-wrap">
         <ProjectCard
           name="Vidcell"
-          image="/project/vidcell.mp4"
+          image="/project/vidcell.png"
           liveLink="https://vidcell.vercel.app"
           gitLink="https://github.com/vansh-vm04/vidcell"
           description="VidCell is a real-time video conferencing web app built with Next.js and the Stream Video SDK. It allows users to create and join video meetings with ease, featuring user authentication, smooth UI, and reliable peer-to-peer video communication — ideal for remote collaboration."
@@ -25,17 +25,17 @@ const Projects = () => {
         ></ProjectCard>
 
         <ProjectCard
-          name="Resume Desk"
-          image="/project/resume-desk.mp4"
-          liveLink="https://resume-desk.vercel.app"
-          gitLink="https://github.com/vansh-vm04/resume-desk"
-          description="Resume Desk is a web application that helps users create professional resumes quickly and efficiently. It features user authentication, structured data storage with MongoDB, and dynamic resume generation using EJS templates — all accessible through a personalized dashboard."
+          name="Profolio"
+          image="/project/profolio.png"
+          liveLink="https://profolio-app.vercel.app"
+          gitLink="https://github.com/vansh-vm04/profolio"
+          description="A web application to create, customize, and host portfolios with custom URLs and downloadable PDFs."
           tools={["ReactJS", "JWT", "Tailwind", "NodeJS", "MongoDB"]}
         ></ProjectCard>
 
         <ProjectCard
           name="Netflix Clone (Frontend)"
-          image="/project/netflix.mp4"
+          image="/project/netflix.png"
           liveLink="https://github.com/vansh-vm04/Mini-Projects/tree/main/Netflix-Clone"
           gitLink="https://github.com/vansh-vm04/Mini-Projects/tree/main/Netflix-Clone"
           description="Netflix frontend clone. Built using HTML and CSS."
@@ -44,7 +44,7 @@ const Projects = () => {
 
         <ProjectCard
           name="Image Search App"
-          image="/project/getimg.mp4"
+          image="/project/getimg.png"
           liveLink="https://get-image-xyz.vercel.app/"
           gitLink="https://github.com/vansh-vm04/Get-Image-App"
           description="Image search app. Built using React, Tailwind and Unsplash image api."
