@@ -5,6 +5,7 @@
   animation: 1s ease 0s 1 normal none running rubberband;
   display: inline-block; /* necessary for transform to work correctly */
   will-change: transform;
+  cursor:grabbing;
 }
 
 @keyframes rubberband {
