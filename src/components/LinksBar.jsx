@@ -34,7 +34,7 @@ const SideComponent = () => {
           duration: 0.4,
           ease: "easeIn",
         }}
-        viewport={{ once: true }} className="fixed top-1/3 left-3 z-50 flex flex-col gap-4">
+        viewport={{ once: true }} className="max-md:hidden fixed top-1/3 left-3 z-50 flex flex-col gap-4">
       {links.map((link) => (
         <a
           key={link.id}
