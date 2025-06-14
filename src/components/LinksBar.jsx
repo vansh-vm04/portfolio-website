@@ -1,27 +1,28 @@
 import React from "react";
-import { FaGithub, FaLinkedin} from "react-icons/fa";
+import {FaLinkedin} from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 import { SiLeetcode } from "react-icons/si";
 import {motion} from "framer-motion";
 
 const SideComponent = () => {
     const links = [
+      {
+      id: 3,
+      icon: <FaLinkedin size={24} />,
+      url: "https://linkedin.com/in/vansh027",
+      name: "LinkedIn",
+    },
     {
       id: 1,
-      icon: <FaGithub size={24} />,
-      url: "https://github.com/vansh-vm04",
-      name: "GitHub",
+      icon: <FaSquareXTwitter size={24} />,
+      url: "https://x.com/vanshhCodes",
+      name: "X",
     },
     {
       id: 2,
       icon: <SiLeetcode size={24} />,
       url: "https://leetcode.com/vansh2704",
       name: "LeetCode",
-    },
-    {
-      id: 3,
-      icon: <FaLinkedin size={24} />,
-      url: "https://linkedin.com/in/vansh027",
-      name: "LinkedIn",
     },
   ];
 
