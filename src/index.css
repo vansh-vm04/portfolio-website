@@ -1,6 +1,26 @@
 @tailwind utilities;
 @import "tailwindcss";
 
+.custom-shape-divider-top-1751126178 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1751126178 svg {
+    position: relative;
+    display: block;
+    width: calc(120% + 1.3px);
+    height: 92px;
+}
+
+.custom-shape-divider-top-1751126178 .shape-fill {
+    fill: #44337A;
+}
+
 .animate_rubberband:hover{
   animation: 1s ease 0s 1 normal none running rubberband;
   display: inline-block; /* necessary for transform to work correctly */

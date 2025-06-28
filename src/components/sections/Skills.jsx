@@ -71,7 +71,7 @@ const Skills = () => {
   ];
 
   return (
-    <div id="skills"  className="w-full pt-20 pb-20 px-4 bg-gradient-to-b to-blue-900 from-purple-900 flex flex-col items-center">
+    <div id="skills"  className="w-full pt-20 pb-20 px-4 bg-gradient-to-b to-blue-900 from-violet-900 flex flex-col items-center">
       <span
         
         className="text-3xl sm:text-4xl poppins-bold text-white mb-2"
@@ -79,7 +79,7 @@ const Skills = () => {
         Skills
       </span>
       <span className="text-gray-400 text-base sm:text-xl text-center max-w-xl mb-10">
-        Here are some of my skills which I have developed out of curiosity.
+        Here are some of my skills which I have built out of curiosity.
       </span>
 
       {/* Skill Categories Grid */}

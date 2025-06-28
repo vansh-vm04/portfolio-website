@@ -1,6 +1,6 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
-import {motion} from "framer-motion";
+import { motion } from "framer-motion";
 import { resume } from "../../utils/data";
 
 const About = () => {
@@ -16,18 +16,23 @@ const About = () => {
           ease: "easeInOut",
         }}
         viewport={{ once: true }}
-        className="pt-36 px-4 min-h-screen pb-[64px] w-full bg-gradient-to-br from-blue-900 to-purple-900 flex flex-col-reverse lg:flex-row items-center justify-center gap-10"
+        className="pt-36 px-4 min-h-screen pb-[64px] w-full bg-gradient-to-b from-blue-900 to-purple-900 flex flex-col-reverse lg:flex-row items-center justify-center gap-10"
       >
         {/* Text Content */}
         <div className="flex flex-col gap-6 w-full md:w-2/3 lg:w-1/2 text-center lg:text-left">
           <span className="text-4xl sm:text-5xl font-bold text-white">
             Hey, I am{" "}
             <span className="text-4xl sm:text-5xl font-bold text-nowrap text-white">
-              {name.split('').map((ch,idx) => 
-                {
-                  return <span key={idx} className={ch!=' ' ? "animate_rubberband" : ""}>{ch}</span>
-                }
-              )}
+              {name.split("").map((ch, idx) => {
+                return (
+                  <span
+                    key={idx}
+                    className={ch != " " ? "animate_rubberband" : ""}
+                  >
+                    {ch}
+                  </span>
+                );
+              })}
             </span>
           </span>
 
